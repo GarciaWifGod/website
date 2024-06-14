@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #1d3557;
+    background-color: #1c1c1c;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -28,7 +28,7 @@ header .logo {
 }
 
 nav {
-    background-color: #457b9d;
+    background-color: #333;
     padding: 10px 0;
 }
 
@@ -52,11 +52,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f4a261;
+    color: #e63946;
 }
 
 .hero {
-    background: linear-gradient(to bottom right, #1d3557, #457b9d);
+    background: linear-gradient(to bottom right, #1c1c1c, #333);
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -77,8 +77,8 @@ nav ul li a:hover {
 }
 
 .hero .btn {
-    background-color: #f4a261;
-    color: #1d3557;
+    background-color: #e63946;
+    color: #f1faee;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #e76f51;
+    background-color: #a8dadc;
 }
 
 .container {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 h2 {
-    color: #1d3557;
+    color: #e63946;
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
@@ -111,20 +111,21 @@ h2::after {
     content: '';
     width: 50px;
     height: 5px;
-    background-color: #e76f51;
+    background-color: #e63946;
     display: block;
     margin: 10px auto;
     border-radius: 5px;
 }
 
 .about, .tokenomics, .community, .roadmap, .faq, .contact {
-    background-color: white;
+    background-color: #1c1c1c;
     margin: 20px 0;
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     text-align: center;
+    color: #f1faee;
 }
 
 .about:hover, .tokenomics:hover, .community:hover, .roadmap:hover, .faq:hover, .contact:hover {
@@ -142,10 +143,11 @@ h2::after {
     flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
     padding: 20px;
-    background-color: #f4f7f9;
+    background-color: #333;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    color: #f1faee;
 }
 
 .tokenomics-item:hover {
@@ -159,7 +161,7 @@ h2::after {
 }
 
 .social-link {
-    color: #1d3557;
+    color: #e63946;
     text-decoration: none;
     font-weight: bold;
     margin: 0 10px;
@@ -167,11 +169,11 @@ h2::after {
 }
 
 .social-link:hover {
-    color: #e76f51;
+    color: #f1faee;
 }
 
 footer {
-    background-color: #1d3557;
+    background-color: #1c1c1c;
     color: white;
     text-align: center;
     padding: 20px 0;
