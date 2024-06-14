@@ -6,184 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garcia Wif God - $GWIF</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #282c34;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        header img {
-            max-width: 200px;
-        }
-
-        nav {
-            background-color: #61dafb;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #282c34;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .banner {
-            width: 100%;
-            height: auto;
-        }
-
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-
-        h2 {
-            color: #61dafb;
-        }
-
-        .tokenomics,
-        .roadmap,
-        .faq {
-            background-color: white;
-            padding: 20px;
-            margin: 20px 0;
-        }
-
-        .community,
-        .contact {
-            background-color: #61dafb;
-            color: white;
-            padding: 20px;
-        }
-
-        .tokenomics table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-        }
-
-        .tokenomics th,
-        .tokenomics td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-
-        .tokenomics th {
-            background-color: #282c34;
-            color: white;
-        }
-
-        .faq .question {
-            font-weight: bold;
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <img src="static/logo_GWIF.png" alt="Garcia Wif God Logo">
-        <h1>Garcia Wif God ($GWIF)</h1>
+        <div class="container">
+            <img src="static/logo_GWIF.png" alt="Garcia Wif God Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#tokenomics">Tokenomics</a>
-        <a href="#community">Community</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section>
-        <img src="static/banner_GWIF.png" alt="Garcia Wif God Banner" class="banner">
+    <section class="banner">
+        <img src="static/banner_GWIF.png" alt="Garcia Wif God Banner">
     </section>
-    <section id="about">
-        <h2>About Garcia Wif God</h2>
-        <p>Garcia Wif God ($GWIF) is a revolutionary cryptocurrency that embodies the resilience, faith, and determination of a champion. Inspired by boxing legend Ryan Garcia, $GWIF merges the unwavering passion of competition with the security and innovation of blockchain technology.</p>
-        <p>$GWIF is more than just a cryptocurrency. It is a symbol of divine victory, perseverance, and spiritual triumph. Like Ryan Garcia, who fights with unshakeable faith and relentless determination, $GWIF aims to give its holders a sense of power and financial security.</p>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Garcia Wif God</h2>
+            <p>Garcia Wif God ($GWIF) is a revolutionary cryptocurrency that embodies the resilience, faith, and determination of a champion. Inspired by boxing legend Ryan Garcia, $GWIF merges the unwavering passion of competition with the security and innovation of blockchain technology.</p>
+            <p>$GWIF is more than just a cryptocurrency. It is a symbol of divine victory, perseverance, and spiritual triumph. Like Ryan Garcia, who fights with unshakeable faith and relentless determination, $GWIF aims to give its holders a sense of power and financial security.</p>
+        </div>
     </section>
     <section id="tokenomics" class="tokenomics">
-        <h2>Tokenomics</h2>
-        <p>The initial distribution of $GWIF tokens is designed to ensure stability and growth:</p>
-        <table>
-            <tr>
-                <th>Category</th>
-                <th>Percentage</th>
-                <th>Amount</th>
-            </tr>
-            <tr>
-                <td>Community Airdrop</td>
-                <td>10%</td>
-                <td>10 billion $GWIF</td>
-            </tr>
-            <tr>
-                <td>Presale</td>
-                <td>20%</td>
-                <td>20 billion $GWIF</td>
-            </tr>
-            <tr>
-                <td>Team and Development</td>
-                <td>15%</td>
-                <td>15 billion $GWIF</td>
-            </tr>
-            <tr>
-                <td>Partnership Reserve</td>
-                <td>10%</td>
-                <td>10 billion $GWIF</td>
-            </tr>
-            <tr>
-                <td>Liquidity and Trading</td>
-                <td>45%</td>
-                <td>45 billion $GWIF</td>
-            </tr>
-        </table>
+        <div class="container">
+            <h2>Tokenomics</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Percentage</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Community Airdrop</td>
+                    <td>10%</td>
+                    <td>10 billion $GWIF</td>
+                </tr>
+                <tr>
+                    <td>Presale</td>
+                    <td>20%</td>
+                    <td>20 billion $GWIF</td>
+                </tr>
+                <tr>
+                    <td>Team and Development</td>
+                    <td>15%</td>
+                    <td>15 billion $GWIF</td>
+                </tr>
+                <tr>
+                    <td>Partnership Reserve</td>
+                    <td>10%</td>
+                    <td>10 billion $GWIF</td>
+                </tr>
+                <tr>
+                    <td>Liquidity and Trading</td>
+                    <td>45%</td>
+                    <td>45 billion $GWIF</td>
+                </tr>
+            </table>
+        </div>
     </section>
     <section id="community" class="community">
-        <h2>Join the $GWIF Community</h2>
-        <p>Become a member of a dynamic and engaged community. Discuss, debate, and actively participate in the evolution of $GWIF. Together, we can transform our vision into reality and create a brighter, more equitable financial future for all.</p>
-        <p>Follow us on social media:</p>
-        <p>
-            <a href="https://twitter.com/gwif_official" style="color: white;">Twitter</a> |
-            <a href="https://reddit.com/r/gwif" style="color: white;">Reddit</a> |
-            <a href="https://t.me/gwif" style="color: white;">Telegram</a>
-        </p>
+        <div class="container">
+            <h2>Join the $GWIF Community</h2>
+            <p>Become a member of a dynamic and engaged community. Discuss, debate, and actively participate in the evolution of $GWIF. Together, we can transform our vision into reality and create a brighter, more equitable financial future for all.</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="https://twitter.com/gwif_official" class="social-link">Twitter</a> |
+                <a href="https://reddit.com/r/gwif" class="social-link">Reddit</a> |
+                <a href="https://t.me/gwif" class="social-link">Telegram</a>
+            </p>
+        </div>
     </section>
     <section id="roadmap" class="roadmap">
-        <h2>Roadmap</h2>
-        <ul>
-            <li><strong>Q1 2024:</strong> Project conceptualization and team formation</li>
-            <li><strong>Q2 2024:</strong> Development of smart contracts and presale launch</li>
-            <li><strong>Q3 2024:</strong> Airdrop distribution and initial exchange listings</li>
-            <li><strong>Q4 2024:</strong> Launch of charitable initiatives and partnerships</li>
-            <li><strong>Q1 2025:</strong> Expansion of community engagement and new feature rollouts</li>
-        </ul>
-    </section
+        <div class="container">
+            <h2>Roadmap</h2>
+            <ul>
+                <li><strong>Q1 2024:</strong> Project conceptualization and team formation</li>
+                <li><strong>Q2 2024:</strong> Development of smart contracts and presale launch</li>
+                <li><strong>Q3 2024:</strong> Airdrop distribution and initial exchange listings</li>
+                <li><strong>Q4 2024:</strong> Launch of charitable initiatives and partnerships</li>
+                <li><strong>Q1 2025:</strong> Expansion of community engagement and new feature rollouts</li>
+            </ul>
+        </div>
+    </section>
     <section id="faq" class="faq">
-        <h2>FAQ</h2>
-        <p><span class="question">What is $GWIF?</span><br>$GWIF is a cryptocurrency inspired by boxing legend Ryan Garcia, designed to embody resilience, faith, and determination.</p>
-        <p><span class="question">How can I participate in the presale?</span><br>To participate, send SOL (Solana) to the following address: G7SwRVGjNPEpwkYz78deMPLZjbNhbvsL81rxdFpfAbjR. The presale ends on June 25, 2024.</p>
-        <p><span class="question">How is $GWIF distributed?</span><br>The distribution includes a community airdrop, presale, team and development fund, partnership reserve, and liquidity for trading.</p>
+        <div class="container">
+            <h2>FAQ</h2>
+            <p><span class="question">What is $GWIF?</span><br>$GWIF is a cryptocurrency inspired by boxing legend Ryan Garcia, designed to embody resilience, faith, and determination.</p>
+            <p><span class="question">How can I participate in the presale?</span><br>To participate, send SOL (Solana) to the following address: G7SwRVGjNPEpwkYz78deMPLZjbNhbvsL81rxdFpfAbjR. The presale ends on June 25, 2024.</p>
+            <p><span class="question">How is $GWIF distributed?</span><br>The distribution includes a community airdrop, presale, team and development fund, partnership reserve, and liquidity for trading.</p>
+        </div>
     </section>
     <section id="contact" class="contact">
-        <h2>Contact & Support</h2>
-        <p>If you have any questions or need support, please reach out to us:</p>
-        <p>Email: <a href="mailto:support@gwif.com" style="color: white;">support@gwif.com</a></p>
-        <p>Join our community channels for the latest updates and support:</p>
-        <p>
-            <a href="https://twitter.com/gwif_official" style="color: white;">Twitter</a> |
-            <a href="https://reddit.com/r/gwif" style="color: white;">Reddit</a> |
-            <a href="https://t.me/gwif" style="color: white;">Telegram</a>
-        </p>
+        <div class="container">
+            <h2>Contact & Support</h2>
+            <p>If you have any questions or need support, please reach out to us:</p>
+            <p>Email: <a href="mailto:support@gwif.com">support@gwif.com</a></p>
+            <p>Join our community channels for the latest updates and support:</p>
+            <p>
+                <a href="https://twitter.com/gwif_official" class="social-link">Twitter</a> |
+                <a href="https://reddit.com/r/gwif" class="social-link">Reddit</a> |
+                <a href="https://t.me/gwif" class="social-link">Telegram</a>
+            </p>
+        </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Garcia Wif God ($GWIF). All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
