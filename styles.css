@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f0f4f8;
     margin: 0;
     padding: 0;
@@ -11,10 +11,12 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
-    width: 150px;
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -37,13 +39,44 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a8dadc;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .banner img {
     width: 100%;
     height: auto;
     display: block;
+    filter: brightness(0.6);
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.banner p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .container {
@@ -56,6 +89,7 @@ nav ul li a {
 h2 {
     color: #1d3557;
     margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .about, .tokenomics, .community, .roadmap, .faq, .contact {
@@ -64,6 +98,11 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about:hover, .tokenomics:hover, .community:hover, .roadmap:hover, .faq:hover, .contact:hover {
+    transform: translateY(-5px);
 }
 
 .tokenomics table {
@@ -83,10 +122,24 @@ h2 {
     color: white;
 }
 
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq .question {
+    font-weight: 600;
+    color: #1d3557;
+}
+
 .social-link {
     color: #1d3557;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #a8dadc;
 }
 
 footer {
@@ -95,4 +148,5 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
