@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f4f8;
+    background-color: #f4f7f9;
     margin: 0;
     padding: 0;
     color: #333;
@@ -22,8 +22,8 @@ header {
 }
 
 header .logo {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -55,45 +55,38 @@ nav ul li a:hover {
     color: #a8dadc;
 }
 
-.banner {
-    position: relative;
-    text-align: center;
+.hero {
+    background: linear-gradient(to bottom right, #1d3557, #457b9d);
     color: white;
-}
-
-.banner .container {
+    padding: 100px 0;
+    text-align: center;
     position: relative;
-    z-index: 1;
 }
 
-.banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-    filter: brightness(0.6);
-}
-
-.banner h1 {
+.hero h1 {
     font-size: 3em;
     margin: 0;
     padding: 20px;
 }
 
-.banner p {
+.hero p {
     font-size: 1.2em;
     margin: 0;
+    padding: 20px;
 }
 
-.banner-image-container {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+.hero .btn {
+    background-color: #a8dadc;
+    color: #1d3557;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-.banner-img {
-    width: 100px;
-    height: auto;
-    border-radius: 20px;
+.hero .btn:hover {
+    background-color: #f1faee;
 }
 
 .container {
@@ -107,51 +100,55 @@ h2 {
     color: #1d3557;
     margin-bottom: 20px;
     font-size: 2em;
+    text-align: center;
 }
 
 .about, .tokenomics, .community, .roadmap, .faq, .contact {
     background-color: white;
     margin: 20px 0;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    text-align: center;
 }
 
 .about:hover, .tokenomics:hover, .community:hover, .roadmap:hover, .faq:hover, .contact:hover {
     transform: translateY(-5px);
 }
 
-.tokenomics table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-.tokenomics th, .tokenomics td {
-    border: 1px solid #ddd;
-    padding: 10px;
+.tokenomics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
 }
 
-.tokenomics th {
-    background-color: #1d3557;
-    color: white;
+.tokenomics-item {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f7f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.faq-item {
-    margin-bottom: 10px;
+.tokenomics-item:hover {
+    transform: translateY(-5px);
 }
 
-.faq .question {
-    font-weight: 600;
-    color: #1d3557;
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .social-link {
     color: #1d3557;
     text-decoration: none;
     font-weight: bold;
+    margin: 0 10px;
     transition: color 0.3s;
 }
 
