@@ -1,13 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f7f9;
+    background-color: #f7f1e3; /* Beige background */
     margin: 0;
     padding: 0;
     color: #333;
 }
 
 header {
-    background-color: #1c1c1c;
+    background-color: #121212; /* Dark background */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -28,7 +28,7 @@ header .logo {
 }
 
 nav {
-    background-color: #333;
+    background-color: #1c1c1c; /* Slightly lighter dark */
     padding: 10px 0;
 }
 
@@ -52,11 +52,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e63946;
+    color: #e63946; /* Red */
 }
 
 .hero {
-    background: linear-gradient(to bottom right, #1c1c1c, #333);
+    background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient */
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -77,8 +77,8 @@ nav ul li a:hover {
 }
 
 .hero .btn {
-    background-color: #e63946;
-    color: #f1faee;
+    background-color: #e63946; /* Red button */
+    color: #f7f1e3; /* Beige text */
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #a8dadc;
+    background-color: #a8dadc; /* Lighter red */
 }
 
 .container {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 h2 {
-    color: #e63946;
+    color: #e63946; /* Red */
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
@@ -111,21 +111,21 @@ h2::after {
     content: '';
     width: 50px;
     height: 5px;
-    background-color: #e63946;
+    background-color: #e63946; /* Red */
     display: block;
     margin: 10px auto;
     border-radius: 5px;
 }
 
 .about, .tokenomics, .community, .roadmap, .faq, .contact {
-    background-color: #1c1c1c;
+    background-color: #121212; /* Dark background */
     margin: 20px 0;
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     text-align: center;
-    color: #f1faee;
+    color: #f7f1e3; /* Beige text */
 }
 
 .about:hover, .tokenomics:hover, .community:hover, .roadmap:hover, .faq:hover, .contact:hover {
@@ -143,40 +143,6 @@ h2::after {
     flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
     padding: 20px;
-    background-color: #333;
+    background-color: #1c1c1c; /* Slightly lighter dark */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    color: #f1faee;
-}
-
-.tokenomics-item:hover {
-    transform: translateY(-5px);
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.social-link {
-    color: #e63946;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-.social-link:hover {
-    color: #f1faee;
-}
-
-footer {
-    background-color: #1c1c1c;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 
