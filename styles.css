@@ -145,4 +145,38 @@ h2::after {
     padding: 20px;
     background-color: #1c1c1c; /* Slightly lighter dark */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: #f7f1e3; /* Beige text */
+}
+
+.tokenomics-item:hover {
+    transform: translateY(-5px);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    color: #e63946; /* Red */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #f7f1e3; /* Beige */
+}
+
+footer {
+    background-color: #121212; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
