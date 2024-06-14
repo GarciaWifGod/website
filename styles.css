@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #a8dadc;
+    color: #f4a261;
 }
 
 .hero {
@@ -67,6 +67,7 @@ nav ul li a:hover {
     font-size: 3em;
     margin: 0;
     padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -76,17 +77,19 @@ nav ul li a:hover {
 }
 
 .hero .btn {
-    background-color: #a8dadc;
+    background-color: #f4a261;
     color: #1d3557;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .hero .btn:hover {
-    background-color: #f1faee;
+    background-color: #e76f51;
 }
 
 .container {
@@ -101,6 +104,17 @@ h2 {
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #e76f51;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 .about, .tokenomics, .community, .roadmap, .faq, .contact {
@@ -153,7 +167,7 @@ h2 {
 }
 
 .social-link:hover {
-    color: #a8dadc;
+    color: #e76f51;
 }
 
 footer {
