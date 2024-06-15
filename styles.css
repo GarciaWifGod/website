@@ -26,7 +26,6 @@ header {
 
 .logo-container {
     flex: 0 1 auto;
-    margin-right: 20px; /* Spacing between logo and nav */
 }
 
 header .logo {
@@ -36,19 +35,19 @@ header .logo {
 }
 
 nav {
-    background-color: transparent; /* Transparent background */
-    padding: 0; /* No padding */
-    border-radius: 0; /* No rounded corners */
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
+    background-color: #1c1c1c; /* Slightly lighter dark */
+    display: inline-block; /* Fit content width */
+    padding: 10px 20px; /* Adjusted padding */
+    border-radius: 5px; /* Rounded corners for aesthetic improvement */
+    flex: 1;
+    text-align: center; /* Center the navigation menu */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-flex; /* Changed to inline-flex to center */
     justify-content: center;
 }
 
@@ -60,14 +59,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    padding: 10px 15px; /* Add padding for better appearance */
-    transition: color 0.3s, background-color 0.3s; /* Transition for hover effect */
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
     color: #e63946; /* Red */
-    background-color: #333; /* Dark background on hover */
-    border-radius: 5px; /* Add slight rounding on hover */
 }
 
 .hero {
