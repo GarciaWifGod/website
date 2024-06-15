@@ -157,7 +157,8 @@ nav ul li a:hover {
 
 .tokenomics-item img {
     max-width: 100px;
-    height: auto;
+    height: 100px;
+    object-fit: cover;
     margin-bottom: 10px;
     border-radius: 8px;
 }
