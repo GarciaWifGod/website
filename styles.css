@@ -19,7 +19,7 @@ header {
 .logo-container {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 100px; /* Adjusted to move the logo slightly to the right */
 }
 
 header .logo {
@@ -30,7 +30,9 @@ header .logo {
 
 nav {
     background-color: #1c1c1c; /* Slightly lighter dark */
-    padding: 10px 0;
+    display: inline-block; /* Changed to inline-block to fit content width */
+    padding: 10px 20px; /* Adjusted padding */
+    border-radius: 5px; /* Rounded corners for aesthetic improvement */
 }
 
 nav ul {
@@ -56,8 +58,6 @@ nav ul li a:hover {
     color: #e63946; /* Red */
 }
 
-.hero {
-    background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient```css
 .hero {
     background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient */
     color: white;
