@@ -36,9 +36,9 @@ header .logo {
 }
 
 nav {
-    background-color: #1c1c1c; /* Slightly lighter dark */
-    padding: 10px 20px; /* Adjusted padding */
-    border-radius: 5px; /* Rounded corners for aesthetic improvement */
+    background-color: transparent; /* Transparent background */
+    padding: 0; /* No padding */
+    border-radius: 0; /* No rounded corners */
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
