@@ -146,6 +146,13 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
+.section-image-small {
+    max-width: 50%; /* Reduced size for smaller images */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 .tokenomics-grid {
     display: flex;
     flex-wrap: wrap;
