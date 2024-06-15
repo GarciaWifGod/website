@@ -57,13 +57,16 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient```css
+    background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient */
+    color: white;
+    padding: ```css
 .hero {
     background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient */
     color: white;
     padding: 100px 0;
     text-align: center;
     position: relative;
+    margin: 0 20px; /* Safety margins */
 }
 
 .hero h1 {
@@ -104,7 +107,7 @@ nav ul li a:hover {
 
 .section-container {
     background-color: white;
-    margin: 20px 0;
+    margin: 20px 20px; /* Safety margins */
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -136,6 +139,12 @@ nav ul li a:hover {
     height: auto;
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+.small-image {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tokenomics-grid {
