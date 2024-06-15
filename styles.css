@@ -11,21 +11,16 @@ header {
     background-color: #121212; /* Dark background */
     color: white;
     padding: 20px 0;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
 }
 
-.container.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .logo-container {
-    flex: 0 1 auto;
+    position: absolute;
+    top: 50%; /* Adjusted for vertical centering */
+    left: 20px; /* Adjusted to move the logo slightly to the right */
+    transform: translateY(-50%); /* Center the logo vertically */
 }
 
 header .logo {
@@ -36,18 +31,16 @@ header .logo {
 
 nav {
     background-color: #1c1c1c; /* Slightly lighter dark */
-    display: inline-block; /* Fit content width */
+    display: inline-block; /* Changed to inline-block to fit content width */
     padding: 10px 20px; /* Adjusted padding */
     border-radius: 5px; /* Rounded corners for aesthetic improvement */
-    flex: 1;
-    text-align: center; /* Center the navigation menu */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex; /* Changed to inline-flex to center */
+    display: flex;
     justify-content: center;
 }
 
