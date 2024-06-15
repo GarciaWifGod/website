@@ -26,6 +26,7 @@ header {
 
 .logo-container {
     flex: 0 1 auto;
+    margin-right: 20px; /* Spacing between logo and nav */
 }
 
 header .logo {
@@ -36,18 +37,18 @@ header .logo {
 
 nav {
     background-color: #1c1c1c; /* Slightly lighter dark */
-    display: inline-block; /* Fit content width */
     padding: 10px 20px; /* Adjusted padding */
     border-radius: 5px; /* Rounded corners for aesthetic improvement */
-    flex: 1;
-    text-align: center; /* Center the navigation menu */
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex; /* Changed to inline-flex to center */
+    display: flex;
     justify-content: center;
 }
 
@@ -141,13 +142,6 @@ nav ul li a:hover {
 
 .section-image {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-.section-image-small {
-    max-width: 50%; /* Reduced size for smaller images */
     height: auto;
     margin-bottom: 20px;
     border-radius: 8px;
