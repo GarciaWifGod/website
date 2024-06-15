@@ -57,6 +57,8 @@ nav ul li a:hover {
 }
 
 .hero {
+    background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient```css
+.hero {
     background: linear-gradient(to bottom right, #121212, #1c1c1c); /* Dark gradient */
     color: white;
     padding: 100px 0;
