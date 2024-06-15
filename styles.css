@@ -18,7 +18,7 @@ header {
 .container.header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the start */
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -26,6 +26,7 @@ header {
 
 .logo-container {
     flex: 0 1 auto;
+    margin-right: 20px; /* Spacing between logo and nav */
 }
 
 header .logo {
@@ -36,11 +37,9 @@ header .logo {
 
 nav {
     background-color: #1c1c1c; /* Slightly lighter dark */
+    display: inline-block; /* Fit content width */
     padding: 10px 20px; /* Adjusted padding */
     border-radius: 5px; /* Rounded corners for aesthetic improvement */
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul {
