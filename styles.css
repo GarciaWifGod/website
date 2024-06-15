@@ -60,11 +60,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s;
+    padding: 10px 15px; /* Add padding for better appearance */
+    transition: color 0.3s, background-color 0.3s; /* Transition for hover effect */
 }
 
 nav ul li a:hover {
     color: #e63946; /* Red */
+    background-color: #333; /* Dark background on hover */
+    border-radius: 5px; /* Add slight rounding on hover */
 }
 
 .hero {
